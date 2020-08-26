@@ -30,6 +30,11 @@ export default class HousesController {
       img: form.img.value
     }
     housesService.createHouse(rawHouse)
-    _drawHouses
+    _drawHouses()
+  }
+
+  removeHouse() {
+    housesService.removeHouse(id)
+    _drawHouses()
   }
 }

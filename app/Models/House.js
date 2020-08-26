@@ -12,7 +12,7 @@ export default class House {
 
   get Template() {
     return `
-    <div class="col-4">
+    <div class="col-4 my-4">
       <div class="card">
           <img class="card-img-top" src="${this.img}" alt="">
           <div class="card-body">
