@@ -18,7 +18,7 @@ let _state = {
   /** @type {Job[]} */
   jobs: [
     new Job({ title: 'High School Teacher', location: 'Meridian', pay: 18, img: 'https://elearningindustry.com/wp-content/uploads/2019/10/professional-development-tools-for-teachers.jpg', description: 'This will not be fun.' }),
-    new Job({ title: 'Nuclear Scientist', location: '???', pay: 400, img: 'https://www.iaea.org/sites/default/files/images/2012/01/nuclear-women-330x220.jpg', description: 'Dangerous!!!' }),
+    new Job({ title: 'Nuclear Scientist', location: 'Classified', pay: 400, img: 'https://www.iaea.org/sites/default/files/images/2012/01/nuclear-women-330x220.jpg', description: 'Dangerous!!!' }),
     new Job({ title: 'Cook', location: 'Boise', pay: 10, img: 'https://thumbor.thedailymeal.com/8p9NSrKL_yHizw6p_eJVLukPOHw=/870x565/https://www.thedailymeal.com/sites/default/files/story/MAIN-skillsperfect-istock_thinkstock.jpg', description: 'No experience required.' })
   ]
 }
