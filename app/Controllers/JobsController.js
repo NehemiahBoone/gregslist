@@ -31,4 +31,9 @@ export default class JobsController {
     jobsService.createJob(rawJob)
     _drawJobs()
   }
+
+  removeJob(id) {
+    jobsService.removeJob(id)
+    _drawJobs()
+  }
 }
