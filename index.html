@@ -69,22 +69,41 @@
             </div> -->
     </div>
 
-    <div class="row" id="houses">
+    <div class="row bg-primary my-5">
+      <div class="col-12 text-center text-light">
+        <h2>Houses</h2>
+      </div>
+    </div>
 
-      <!-- <div class="col-4">
-        <div class="card">
-          <img class="card-img-top" src="//placehold.it/200x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">MAKE - MODEL - YEAR</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illum esse
-              error velit! Quod doloremque soluta ex ipsum iste perferendis saepe, nisi, repudiandae eos
-              error neque obcaecati accusamus at provident!</p>
-            <div class="text-right">
-              <p>PRICE</p>
-            </div>
+    <div class="row my-3">
+      <div class="col">
+        <form onsubmit="app.housesController.createHouse()" class="form-inline">
+          <div class="form-group p-1">
+            <label class="mr-1" for="city">City</label>
+            <input type="text" name="city" id="city" class="form-control" placeholder="City...">
           </div>
-        </div>
-      </div> -->
+          <div class="form-group p-1">
+            <label class="mr-1" for="zip">Zip</label>
+            <input type="text" name="zip" id="zip" class="form-control" placeholder="Zip...">
+          </div>
+          <div class="form-group p-1">
+            <label class="mr-1" for="price">Price</label>
+            <input type="number" name="price" id="price" class="form-control" placeholder="Price...">
+          </div>
+          <div class="form-group p-1">
+            <label class="mr-1" for="description">Description</label>
+            <input type="text" name="description" id="description" class="form-control" placeholder="Description...">
+          </div>
+          <div class="form-group p-1">
+            <label class="mr-1" for="img">Image Url</label>
+            <input type="url" name="img" id="img" class="form-control" placeholder="Image Url...">
+          </div>
+          <button type="submit" class="btn btn-outline-success">Add House</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row" id="houses">
 
     </div>
 

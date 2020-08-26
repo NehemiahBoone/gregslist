@@ -11,6 +11,25 @@ function _drawHouses() {
 
 export default class HousesController {
   constructor() {
+    _drawHouses()
+  }
 
+  createHouse() {
+    event.preventDefault()
+    let form = event.target
+    let rawHouse = {
+      // @ts-ignore
+      city: form.city.value,
+      // @ts-ignore
+      zip: form.zip.value,
+      // @ts-ignore
+      price: parseInt(form.price.value),
+      // @ts-ignore
+      description: form.description.value,
+      // @ts-ignore
+      img: form.img.value
+    }
+    housesService.createHouse(rawHouse)
+    _drawHouses
   }
 }

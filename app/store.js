@@ -9,9 +9,9 @@ let _state = {
     new Car({ make: "Jeep", model: "Wrangler", year: 1987, price: 1000, img: "https://vignette.wikia.nocookie.net/jurassicpark/images/e/e7/Jurassic-park-jeep3-1-.jpg/revision/latest/scale-to-width-down/340?cb=20090417212624", description: "Are those teeth marks?" })
   ],
   houses: [
-    new House({ city: 'Meridian', zip: '83646', price: '$500,000', img: 'https://photos.zillowstatic.com/p_e/ISvknwyf8hner21000000000.jpg', description: "It's gonna keep goin up!" }),
-    new House({ city: 'Boise', zip: '83701', price: '$250,000', img: 'https://ap.rdcpix.com/b42b7e812d2eb088342bcac523ffb071l-m4193156025od-w480_h360.jpg', description: 'Real quaint.' }),
-    new House({ city: 'Meridian', zip: '83646', price: '$1,000,000', img: 'https://photos.zillowstatic.com/p_e/ISnisg5pmkd3aq0000000000.jpg', description: "Luxury!" })
+    new House({ city: 'Meridian', zip: '83646', price: 500000, img: 'https://photos.zillowstatic.com/p_e/ISvknwyf8hner21000000000.jpg', description: "It's gonna keep goin up!" }),
+    new House({ city: 'Boise', zip: '83701', price: 250000, img: 'https://ap.rdcpix.com/b42b7e812d2eb088342bcac523ffb071l-m4193156025od-w480_h360.jpg', description: 'Real quaint.' }),
+    new House({ city: 'Meridian', zip: '83646', price: 1000000, img: 'https://photos.zillowstatic.com/p_e/ISnisg5pmkd3aq0000000000.jpg', description: "Luxury!" })
   ]
 }
 
