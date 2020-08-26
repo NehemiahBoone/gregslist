@@ -1,5 +1,5 @@
-import housesService from "../Services/HousesService.js";
-import STORE from "../store.js";
+import housesService from "../Services/HousesService.js"
+import STORE from "../store.js"
 
 function _drawHouses() {
   let houses = STORE.State.houses
