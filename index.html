@@ -116,8 +116,24 @@
       <div class="col">
         <form onsubmit="app.jobsController.createJob()" class="form-inline">
           <div class="form-group p-1">
-            <label for=""></label>
-            <input type="text" name="" id="" class="form-control" placeholder="">
+            <label class="mr-1" for="title">Title</label>
+            <input type="text" name="title" id="title" class="form-control" placeholder="Title...">
+          </div>
+          <div class="form-group p-1">
+            <label class="mr-1" for="location">Location</label>
+            <input type="text" name="location" id="location" class="form-control" placeholder="Location...">
+          </div>
+          <div class="form-group p-1">
+            <label class="mr-1" for="pay">Pay</label>
+            <input type="number" name="pay" id="pay" class="form-control" placeholder="Pay...">
+          </div>
+          <div class="form-group p-1">
+            <label class="mr-1" for="img">Image Url</label>
+            <input type="url" name="img" id="img" class="form-control" placeholder="Image Url...">
+          </div>
+          <div class="form-group p-1">
+            <label class="mr-1" for="description">Description</label>
+            <input type="text" name="description" id="description" class="form-control" placeholder="Description...">
           </div>
         </form>
       </div>
