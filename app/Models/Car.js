@@ -1,4 +1,4 @@
-import { generateId } from "../utils.js";
+import { generateId } from "../utils.js"
 console.log(0)
 export default class Car {
   // Object Destructuring
