@@ -33,7 +33,7 @@ export default class HousesController {
     _drawHouses()
   }
 
-  removeHouse() {
+  removeHouse(id) {
     housesService.removeHouse(id)
     _drawHouses()
   }
