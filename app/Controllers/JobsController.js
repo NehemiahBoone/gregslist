@@ -12,4 +12,23 @@ export default class JobsController {
   constructor() {
     _drawJobs()
   }
+
+  createJob() {
+    event.preventDefault()
+    let form = event.target
+    let rawJob = {
+      // @ts-ignore
+      title: form.title.value,
+      // @ts-ignore
+      location: form.location.value,
+      // @ts-ignore
+      pay: parseInt(form.pay.value),
+      // @ts-ignore
+      img: form.img.value,
+      // @ts-ignore
+      description: form.description.value
+    }
+    jobsService.createJob(rawJob)
+    _drawJobs()
+  }
 }

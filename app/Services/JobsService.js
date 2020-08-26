@@ -3,7 +3,10 @@ import STORE from "../store.js"
 
 
 class JobsService {
-
+  createJob(rawJob) {
+    let job = new Job(rawJob)
+    STORE.State.jobs.push(job)
+  }
 }
 
 
